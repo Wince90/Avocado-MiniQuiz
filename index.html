@@ -10,17 +10,28 @@
 
 <body>
     <section class="question">
-        <h1 class="question__header">Ankieta</h1>
-    <form class="question__form" action="#">
-        <label for="name">Imię</label><br><input type="text" name="name"><br>
-        <label for="forname">Nazwisko</label><br><input type="text" name="forname"><br>
-        <label for="forname">Nazwisko</label><br><input type="text" name="forname"><br>
-
-
-
-        <input class="submit" type="submit">
-
-        </section>
+        <h1 class="question__header">Avocado! Quiz</h1>
+        <form class="question__form" action="#">
+            <label for="name">Imię</label><br><input type="text" name="name"><br>
+            <label for="forname">Nazwisko</label><br><input type="text" name="forname"><br>
+            <label for="mail">Email</label><br><input type="email" name="mail"><br>
+            <ol class="question__list">
+                <li>Ile światowej produkcji stanowi<br> Ameryka Północna?
+                    <label for="mail"></label><br><input type="range" name="mail" min="0" max="100" step="1"><span> 0%</span><br>
+                </li>
+                <li>Czym jest avokado?
+                    <div class="question__anwsers">
+                        <br><input class="question__list--input" type="radio" name="question1" value="Owocem"><label
+                            for="Owocem"> Owocem</label>
+                        <br><input class="question__list--input" type="radio" name="question1" value="Warzywem"><label
+                            for="Warzywem"> Warzywem</label>
+                        <br><input class="question__list--input" type="radio" name="question1" value="Orzechem"><label
+                            for="Orzechem"> Orzechem</label>
+                    </div>
+                </li>
+            </ol>
+            <input class="submit" type="submit">
+    </section>
     </form>
 </body>
 

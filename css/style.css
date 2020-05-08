@@ -68,3 +68,22 @@ input {
 .question__list--input {
     margin: 7px;
 }
+
+.question__list--value {
+    margin-left: 10px;
+}
+.question__list__item {
+    margin: 15px 0 5px 0;
+}
+
+.question__information {
+    margin-top: 5px;
+    border-top: dotted 9px #0b6e4f;
+    border-spacing: 10px;
+    padding-top: 30px;
+}
+
+img {
+    margin-left: 5px;
+    filter: drop-shadow(1.5px 1.5px 2px rgba(221,183,113,1));
+}

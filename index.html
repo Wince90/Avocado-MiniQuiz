@@ -12,16 +12,13 @@
     <section class="question">
         <h1 class="question__header">Avocado! Quiz</h1>
         <form class="question__form" action="#">
-            <label for="name">Imię</label><br><input type="text" name="name"><br>
-            <label for="forname">Nazwisko</label><br><input type="text" name="forname"><br>
-            <label for="mail">Email</label><br><input type="email" name="mail"><br>
             <ol class="question__list">
-                <li>Ile światowej produkcji stanowi<br> Ameryka Północna?
-                    <label for="mail"></label><br><input type="range" name="mail" min="0" max="100" step="1"><span> 0%</span><br>
+                <li class="question__list__item">Ile światowej produkcji stanowi<br> Ameryka Północna?
+                    <label for="slider"></label><br><input type="range" name="slider" min="0" max="100" step="1" value="0" oninput="valueOfRange(this.value)"><span class="question__list--value currentValue--js"> 0 %</span><br>
                 </li>
-                <li>Czym jest avokado?
+                <li class="question__list__item">Czym jest avokado?
                     <div class="question__anwsers">
-                        <br><input class="question__list--input" type="radio" name="question1" value="Owocem"><label
+                        <br><input class="question__list--input" type="radio" name="question1" value="Owocem" required="required"><label
                             for="Owocem"> Owocem</label>
                         <br><input class="question__list--input" type="radio" name="question1" value="Warzywem"><label
                             for="Warzywem"> Warzywem</label>
@@ -29,10 +26,29 @@
                             for="Orzechem"> Orzechem</label>
                     </div>
                 </li>
+                <li class="question__list__item"> W jakich krajach uprawia się Avocado?
+                    <div class="question_anwsers">
+                    <br><input class="question__list--input" type="checkbox" name="indonesia" value="Indonesia"><label
+                        for="Polska"> Indonezja <img src="../Formularz/img/indonesia.webp" alt="flaga indonezji"> </label>
+                        <br><input class="question__list--input" type="checkbox" name="dominicana" value="Dominicana"><label
+                        for="Polska"> Dominikana <img src="../Formularz/img/dominicana.webp" alt="flaga indonezji"> </label>
+
+                        </div>
+
+            </li>
+
+                </ol>
             </ol>
+            <div class="question__information">
+            <label for="name">Imię</label><br><input type="text" name="name" required="required"><br>
+            <label for="forname">Nazwisko</label><br><input type="text" name="forname" required="required"><br>
+            <label for="mail">Email</label><br><input type="email" name="mail" required="required"><br>
+            </div>
             <input class="submit" type="submit">
     </section>
     </form>
+    <script src="../Formularz/script.js">
+    </script>
 </body>
 
 </html>

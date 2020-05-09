@@ -37,7 +37,6 @@ input {
 
 .question__form {
     max-width: 600px;
-    /* height: 300px; */
     /* border: solid 2px black; */
 }
 
@@ -46,6 +45,7 @@ input {
     border-radius: 20px;
     background-color: #faf8d4;
     color: #757780;
+    margin-right: 10px;
 }
 
 .submit {
@@ -55,7 +55,7 @@ input {
     padding: 10px 0;
     border-radius: 20px;
     border: none;
-    margin-top: 50px;
+    margin-top: 20px;
     color: white;
     /* font-weight: bold; */
     text-transform: uppercase;
@@ -74,13 +74,10 @@ input {
 }
 .question__list__item {
     margin: 15px 0 5px 0;
-}
+} 
 
-.question__information {
-    margin-top: 5px;
-    border-top: dotted 9px #0b6e4f;
-    border-spacing: 10px;
-    padding-top: 30px;
+.question__anwsers {
+    margin-bottom: 20px;
 }
 
 img {

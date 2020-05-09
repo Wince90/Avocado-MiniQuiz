@@ -10,40 +10,48 @@
 
 <body>
     <section class="question">
-        <h1 class="question__header">Avocado! Quiz</h1>
+        <h1 class="question__header">Avocado! MiniQuiz</h1>
         <form class="question__form" action="#">
             <ol class="question__list">
                 <li class="question__list__item">Ile światowej produkcji stanowi<br> Ameryka Północna?
-                    <label for="slider"></label><br><input type="range" name="slider" min="0" max="100" step="1" value="0" oninput="valueOfRange(this.value)"><span class="question__list--value currentValue--js"> 0 %</span><br>
+                    <label for="slider"></label><br><input type="range" name="slider" min="0" max="100" step="1"
+                        value="0" oninput="valueOfRange(this.value)"><span
+                        class="question__list--value currentValue--js"> 0 %</span><br>
                 </li>
                 <li class="question__list__item">Czym jest avokado?
                     <div class="question__anwsers">
-                        <br><input class="question__list--input" type="radio" name="question1" value="Owocem" required="required"><label
-                            for="Owocem"> Owocem</label>
+                        <br><input class="question__list--input" type="radio" name="question1" value="Owocem"
+                            required="required"><label for="Owocem"> Owocem</label>
                         <br><input class="question__list--input" type="radio" name="question1" value="Warzywem"><label
                             for="Warzywem"> Warzywem</label>
                         <br><input class="question__list--input" type="radio" name="question1" value="Orzechem"><label
                             for="Orzechem"> Orzechem</label>
                     </div>
                 </li>
-                <li class="question__list__item"> W jakich krajach uprawia się Avocado?
+                <li class="question__list__item">W jakich państwach uprawia<br> się Avocado?
                     <div class="question_anwsers">
-                    <br><input class="question__list--input" type="checkbox" name="indonesia" value="Indonesia"><label
-                        for="Polska"> Indonezja <img src="../Formularz/img/indonesia.webp" alt="flaga indonezji"> </label>
-                        <br><input class="question__list--input" type="checkbox" name="dominicana" value="Dominicana"><label
-                        for="Polska"> Dominikana <img src="../Formularz/img/dominicana.webp" alt="flaga indonezji"> </label>
-
-                        </div>
-
-            </li>
-
-                </ol>
+                        <br><input class="question__list--input" type="checkbox" name="indonesia"
+                            value="Indonesia"><label for="Indonesia"> Indonezja <img
+                                src="../Formularz/img/indonesia.webp" alt="flaga indonezji"> </label>
+                        <br><input class="question__list--input" type="checkbox" name="dominicana"
+                            value="Dominicana"><label for="Dominicana"> Dominikana <img
+                                src="../Formularz/img/dominicana.webp" alt="flaga dominikany"> </label>
+                        <br><input class="question__list--input" type="checkbox" name="mexico" value="Mexico"><label
+                            for="Mexico"> Meksyk <img src="../Formularz/img/mexico.webp" alt="flaga meksyku"> </label>
+                        <br><input class="question__list--input" type="checkbox" name="kenia" value="Kenia"><label
+                            for="Kenia"> Kenia <img src="../Formularz/img/kenia.webp" alt="flaga keni"> </label>
+                        <br><input class="question__list--input" type="checkbox" name="izrael" value="Izrael"><label
+                            for="Izrael"> Izrael <img src="../Formularz/img/izrael.webp" alt="flaga izraela"> </label>
+                    </div>
+                </li>
             </ol>
-            <div class="question__information">
-            <label for="name">Imię</label><br><input type="text" name="name" required="required"><br>
-            <label for="forname">Nazwisko</label><br><input type="text" name="forname" required="required"><br>
-            <label for="mail">Email</label><br><input type="email" name="mail" required="required"><br>
-            </div>
+            </ol>
+    </section>
+    <section class="question">
+                <h3 class="question__header">Poznaj odpowiedzi:</h3>
+                <label for="name">Imię</label><br><input type="text" name="name" required="required"><br>
+                <label for="forname">Nazwisko</label><br><input type="text" name="forname" required="required"><br>
+                <label for="mail">Email</label><br><input type="email" name="mail" required="required"><br>
             <input class="submit" type="submit">
     </section>
     </form>

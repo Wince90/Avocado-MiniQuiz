@@ -84,3 +84,16 @@ img {
     margin-left: 5px;
     filter: drop-shadow(1.5px 1.5px 2px rgba(221,183,113,1));
 }
+
+/* -------------------RWD----------------------- */
+
+
+@media (max-width: 560px) {
+    body {
+        flex-direction: column;
+        height: auto;
+    }
+    .question {
+        margin-bottom: 20px;
+    }
+}

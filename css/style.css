@@ -40,14 +40,19 @@ input {
 
 .question__form {
     max-width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .question {
     padding: 20px;
     border-radius: 20px;
+    border: none;
     background-color: #faf8d4;
     color: #757780;
     margin-right: 10px;
+    width: 274px;
 }
 
 .submit {
@@ -103,6 +108,11 @@ img {
 
     .question {
         margin-bottom: 20px;
+        margin-right: 0;
+    }
+
+    .question__form {
+        display: block;
     }
 
     .question__thanks--center {

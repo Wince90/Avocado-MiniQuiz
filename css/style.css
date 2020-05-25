@@ -9,7 +9,6 @@ html {
 
 /* ----------------BODY--------------- */
 body {
-  border: solid 10px red;
   height: 100vh;
   display: flex;
   align-items: center;
